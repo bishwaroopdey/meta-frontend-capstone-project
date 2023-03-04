@@ -1,0 +1,36 @@
+.navbar-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.navbar-list-item-link {
+    text-decoration: none;
+    padding: 1.5em;
+    color: black;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.navbar-list-item-link:hover {
+    color: white;
+    background-color: #495E57;
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar {
+        display: none;
+    }
+
+    .navbar.open{
+        display: block;
+    }
+
+    .navbar-list-item {
+        width: 100%;
+        padding: 1rem;
+        border-bottom: 1px solid gray;
+    }
+}

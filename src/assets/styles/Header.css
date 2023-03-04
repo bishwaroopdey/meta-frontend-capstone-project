@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+}
+
+.primary-logo {
+    height: auto;
+    max-width: 250px;
+    width: 100%;
+}
+
+.navbar-toggle {
+    display: none;
+    padding: 0.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar-toggle {
+        display: block;
+    }
+}
