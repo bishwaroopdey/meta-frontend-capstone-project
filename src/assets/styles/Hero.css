@@ -1,0 +1,66 @@
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #495E57;
+    padding: 2em;
+}
+
+.heroDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 300px;
+}
+
+.heroTitle {
+    color: #F4CE14;
+    font-family: Markaz;
+    font-size: xx-large;
+}
+
+.heroCaption {
+    color: white;
+    margin-top: 1em;
+    font-family: Karla;
+    font-size: x-large;
+}
+
+.heroDescription {
+    color: white;
+    margin-top: 1em;
+    font-family: Karla;
+    font-size: large;
+}
+
+.reserveATableButton {
+    border: none;
+    background-color: #F4CE14;
+    border-radius: 15px;
+    font-size: large;
+    font-weight: 700;
+    margin-top: 1em;
+    padding: 1em;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.heroImage {
+    height: auto;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 5%;
+}
+
+@media screen and (max-width: 600px) {
+
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .heroImage {
+        margin-top: 2em;
+    }
+}
