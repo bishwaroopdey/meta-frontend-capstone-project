@@ -10,7 +10,6 @@ function Header() {
 
   function toggle() {
     setIsActive(!isActive);
-    console.log(isActive);
   }
 
   return (
